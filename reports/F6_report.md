@@ -84,7 +84,7 @@ Early correlation checks already show that `OverallQual` and `GrLivArea` rise wi
 
 ### Verifying data quality
 
-Missing values mainly occur in optional amenities such as `PoolQC`, `Alley`, and `Fence`, and the documentation says many of those "NA" entries simply mean "feature missing on site." We will keep them as separate categories and fill numeric gaps like `LotFrontage` with neighborhood medians. The IDs in `data/train.csv` are unique, cross-field checks like `GarageCars` vs `GarageArea` look consistent, and `data/sample_submission.csv` shows the `Id`/`SalePrice` order we must follow. Overall the data is clean enough to support multiple modeling pipelines once we handle these few gaps and outliers.
+Missing values mainly occur in optional amenities such as `PoolQC`, `Alley`, and `Fence`, and the documentation says many of those "NA" entries simply mean "feature missing on site." We will keep them as separate categories and fill numeric gaps like `LotFrontage` with neighborhood medians. The IDs in `data/train.csv` are unique, cross-field checks like `GarageCars` vs `GarageArea` look consistent, and `data/sample_submission.csv` shows the `Id`/`SalePrice` order we must follow. Overall, the data is clean enough to support multiple modeling pipelines once we handle these few gaps and outliers.
 
 ---
 
