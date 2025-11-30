@@ -94,15 +94,15 @@ Missing values mainly occur in optional amenities such as `PoolQC`, `Alley`, and
 
 | Task | Description | Leonid (h) | Kirsika (h) | Jessica (h) |
 | --- | --- | --- | --- | --- |
-| T1 | Environment setup, Kaggle API checks, repo hygiene | 3 | 2 | 2 |
-| T2 | Data cleaning, feature audits, and plotting (EDA deck) | 3 | 6 | 3 |
-| T3 | Feature engineering & preprocessing pipelines | 5 | 4 | 3 |
-| T4 | Modeling, ensembling, and hyperparameter search | 6 | 3 | 4 |
-| T5 | Validation runs, submission packaging, leaderboard tracking | 5 | 3 | 3 |
-| T6 | Report writing, poster drafting, and PDF export | 3 | 3 | 6 |
+| T1 | Environment setup, Kaggle API checks, repo hygiene | 4 | 2 | 2 |
+| T2 | Data cleaning, feature audits, and plotting (EDA deck) | 3 | 8 | 4 |
+| T3 | Feature engineering & preprocessing pipelines | 6 | 6 | 3 |
+| T4 | Modeling, ensemblings and hyperparameter search | 8 | 4 | 4 |
+| T5 | Validation runs, submission packaging, leaderboard tracking | 6 | 4 | 5 |
+| T6 | Report writing, poster drafting | 3 | 6 | 12 |
 
 **Methods and tools.** We plan to use Python 3.11, pandas, NumPy, scikit-learn pipelines, XGBoost, LightGBM, CatBoost, and SHAP. Visualization relies on seaborn and matplotlib; documentation lives in Markdown exported to PDF. Kaggle notebooks serve as a backup execution environment for quick experiments.
 
-**Comments.** Leonid leads the heavier modeling work (T3-T5), Kirsika focuses on data preparation and visualization (T2-T3), and Jessica owns the poster plus final storytelling (T6) while still helping with evaluation. Everyone contributes to each milestone so knowledge is shared, and we rotate reviewers before submissions and poster deadlines.
+**Comments.** Leonid leads the heavier modeling work (T3-T5), Kirsika focuses on data preparation and visualization (T2-T3), and Jessica owns the poster plus final storytelling (T6) while still helping with evaluation. Each column sums to 30 hours so the workload is balanced, and everyone contributes to each milestone with rotating reviewers before submissions and poster deadlines.
 
 
