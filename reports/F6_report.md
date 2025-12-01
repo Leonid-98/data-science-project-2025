@@ -1,4 +1,4 @@
-# Project F6 - CRISP-DM Phase Reports
+# Project F6 - House Prices: Advanced Regression Techniques
 
 **Course:** Introduction to Data Science (LTAT.02.002), Spring 2025  
 **Team:** Leonid Tšigrinski, Kirsika Roos-Nessler, Jessica Brjuhhov  
