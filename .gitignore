@@ -1,4 +1,5 @@
 .gitconfig
 .venv/
 .secrets/
+.data/
 data/
